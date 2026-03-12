@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>photo</title>
+<script>
+function a(){
+var p=prompt("password");
+if(p=="1234"){
+document.getElementById("x").style.display="block";
+}else{
+alert("wrong");
+location.reload();
+}
+}
+</script>
+</head>
+<body onload="a()" style="text-align:center">
+
+<div id="x" style="display:none">
+<img src="photo.jpg" width="300">
+</div>
+
+</body>
+</html>
